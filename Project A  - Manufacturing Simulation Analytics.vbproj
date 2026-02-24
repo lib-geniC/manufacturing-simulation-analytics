@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{38C0782F-9BCA-C170-482E-E05BBB3A1CA5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>Project_A____Manufacturing_Simulation_Analytics</RootNamespace>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data_Analyst_Portfolio.slnx" />
+    <Content Include="Project A  - Manufacturing Simulation Analytics.slnx" />
+    <Content Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\00_db_setup.sql" />
+    <Content Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\00_schema_setup.sql" />
+    <Content Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\01_base_views.sql" />
+    <Content Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\02_kpi_core.sql" />
+    <Content Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\03_kpi_queries.sql" />
+    <Content Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\Just_In_Case.txt" />
+    <Content Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\sql_testing_script.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\Data_Analyst_Portfolio.slnx\FileContentIndex\0db7c9a9-d933-43da-b8ee-59a852713d63.vsidx" />
+    <None Include=".vs\Data_Analyst_Portfolio.slnx\FileContentIndex\1a534a5b-6e91-4e38-ba2a-120cfe817e25.vsidx" />
+    <None Include=".vs\Data_Analyst_Portfolio.slnx\FileContentIndex\4d189d37-7c95-4f37-b1b5-16c97f26bb7b.vsidx" />
+    <None Include=".vs\Data_Analyst_Portfolio.slnx\FileContentIndex\7b55d63a-e314-4567-9e34-388e898dbec2.vsidx" />
+    <None Include=".vs\Data_Analyst_Portfolio.slnx\FileContentIndex\a2680d72-fa81-447a-8df6-014bb33ab010.vsidx" />
+    <None Include=".vs\Data_Analyst_Portfolio.slnx\v18\.suo" />
+    <None Include=".vs\Data_Analyst_Portfolio.slnx\v18\.wsuo" />
+    <None Include=".vs\Data_Analyst_Portfolio.slnx\v18\DocumentLayout.backup.json" />
+    <None Include=".vs\Data_Analyst_Portfolio.slnx\v18\DocumentLayout.json" />
+    <None Include=".vs\Data_Analyst_Portfolio\CopilotIndices\18.0.988.22099\CodeChunks.db" />
+    <None Include=".vs\Data_Analyst_Portfolio\CopilotIndices\18.0.988.22099\SemanticSymbols.db" />
+    <None Include=".vs\Project A  - Manufacturing Simulation Analytics.slnx\v18\.wsuo" />
+    <None Include=".vs\Project A  - Manufacturing Simulation Analytics.slnx\v18\DocumentLayout.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="PROJECT A SUMMARY-CHAT SUMMARY.docx" />
+    <None Include="PROJECT A SUMMARY-CHAT SUMMARY.pdf" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.env" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.github\copilot-instructions.md" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\CopilotSnapshots\4D773B76EC48114B97E89540EF566B66\0E70B39FB6C2B743A080B5A98DAB2622\CFDE757A090626F4F0032F843EA5FA62" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\CopilotSnapshots\4D773B76EC48114B97E89540EF566B66\state.mpack" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\CopilotSnapshots\9AFC1F9950E93D4B8100FF90D67B363A\EE0074CA780AD64782D49BB8B611D7A1\CFDE757A090626F4F0032F843EA5FA62" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\CopilotSnapshots\9AFC1F9950E93D4B8100FF90D67B363A\state.mpack" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\Project-A-Production-Line-KPI-Analysis-Using-SQL.slnx\config\applicationhost.config" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\Project-A-Production-Line-KPI-Analysis-Using-SQL.slnx\copilot-chat\71e37b6f\sessions\56ccd73f-4001-4e6f-aa32-ec2b12dca1c1" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\Project-A-Production-Line-KPI-Analysis-Using-SQL.slnx\copilot-chat\71e37b6f\sessions\5b9b696e-a201-459f-bfb0-eecf27384e50" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\Project-A-Production-Line-KPI-Analysis-Using-SQL.slnx\copilot-chat\71e37b6f\sessions\5c9bbda3-4346-4104-bd4f-4d3da8fbcff9" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\Project-A-Production-Line-KPI-Analysis-Using-SQL.slnx\copilot-chat\71e37b6f\sessions\600d40b2-663e-4344-8c10-8f1dd8a8d0ab" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\Project-A-Production-Line-KPI-Analysis-Using-SQL.slnx\copilot-chat\71e37b6f\sessions\cf4c2e33-17c8-436e-b908-006fe9c7186a" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\Project-A-Production-Line-KPI-Analysis-Using-SQL.slnx\FileContentIndex\00cc6d97-5e91-4bca-a449-cec1603b953d.vsidx" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\Project-A-Production-Line-KPI-Analysis-Using-SQL.slnx\FileContentIndex\05bd5f3a-7f80-43c1-b9b2-ce76f83a844d.vsidx" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\Project-A-Production-Line-KPI-Analysis-Using-SQL.slnx\FileContentIndex\337d0ed7-3db7-46c0-bcb4-0486ccc3f399.vsidx" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\Project-A-Production-Line-KPI-Analysis-Using-SQL.slnx\FileContentIndex\7bf4fab9-ba0e-48be-8401-c1a8aad634bb.vsidx" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\Project-A-Production-Line-KPI-Analysis-Using-SQL.slnx\FileContentIndex\89e1e5af-db36-4eef-ad00-8d7029515b03.vsidx" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\Project-A-Production-Line-KPI-Analysis-Using-SQL.slnx\v18\.wsuo" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\Project-A-Production-Line-KPI-Analysis-Using-SQL.slnx\v18\DocumentLayout.backup.json" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\Project-A-Production-Line-KPI-Analysis-Using-SQL.slnx\v18\DocumentLayout.json" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\Project-A-Production-Line-KPI-Analysis-Using-SQL\CopilotIndices\18.0.988.22099\CodeChunks.db" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\Project-A-Production-Line-KPI-Analysis-Using-SQL\CopilotIndices\18.0.988.22099\SemanticSymbols.db" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\Project-A-Production-Line-KPI-Analysis-Using-SQL\CopilotIndices\18.3.502.33069\CodeChunks.db" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\Project-A-Production-Line-KPI-Analysis-Using-SQL\CopilotIndices\18.3.502.33069\SemanticSymbols.db" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\slnx.sqlite" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\VSWorkspaceState.json" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1200\C-1200_2026-02-18T23-24-36.428737+00-00\dim_machine.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1200\C-1200_2026-02-18T23-24-36.428737+00-00\dim_process.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1200\C-1200_2026-02-18T23-24-36.428737+00-00\dim_process_route.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1200\C-1200_2026-02-18T23-24-36.428737+00-00\dim_product.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1200\C-1200_2026-02-18T23-24-36.428737+00-00\dim_scenario.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1200\C-1200_2026-02-18T23-24-36.428737+00-00\fact_downtime_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1200\C-1200_2026-02-18T23-24-36.428737+00-00\fact_production_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1200\C-1200_2026-02-18T23-24-36.428737+00-00\fact_quality_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1200\C-1200_2026-02-18T23-24-36.428737+00-00\fact_work_order.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1200\C-1200_2026-02-18T23-24-36.428737+00-00\manifest.json" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1500\C-1500_2026-02-18T23-19-27.799204+00-00\dim_machine.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1500\C-1500_2026-02-18T23-19-27.799204+00-00\dim_process.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1500\C-1500_2026-02-18T23-19-27.799204+00-00\dim_process_route.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1500\C-1500_2026-02-18T23-19-27.799204+00-00\dim_product.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1500\C-1500_2026-02-18T23-19-27.799204+00-00\dim_scenario.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1500\C-1500_2026-02-18T23-19-27.799204+00-00\fact_downtime_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1500\C-1500_2026-02-18T23-19-27.799204+00-00\fact_production_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1500\C-1500_2026-02-18T23-19-27.799204+00-00\fact_quality_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1500\C-1500_2026-02-18T23-19-27.799204+00-00\fact_work_order.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1500\C-1500_2026-02-18T23-19-27.799204+00-00\manifest.json" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-150\C-150_2026-02-18T23-57-10.125440+00-00\dim_machine.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-150\C-150_2026-02-18T23-57-10.125440+00-00\dim_process.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-150\C-150_2026-02-18T23-57-10.125440+00-00\dim_process_route.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-150\C-150_2026-02-18T23-57-10.125440+00-00\dim_product.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-150\C-150_2026-02-18T23-57-10.125440+00-00\dim_scenario.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-150\C-150_2026-02-18T23-57-10.125440+00-00\fact_downtime_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-150\C-150_2026-02-18T23-57-10.125440+00-00\fact_production_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-150\C-150_2026-02-18T23-57-10.125440+00-00\fact_quality_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-150\C-150_2026-02-18T23-57-10.125440+00-00\fact_work_order.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-150\C-150_2026-02-18T23-57-10.125440+00-00\manifest.json" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-180-3\C-180-3_2026-02-19T00-18-12.660835+00-00\dim_machine.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-180-3\C-180-3_2026-02-19T00-18-12.660835+00-00\dim_process.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-180-3\C-180-3_2026-02-19T00-18-12.660835+00-00\dim_process_route.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-180-3\C-180-3_2026-02-19T00-18-12.660835+00-00\dim_product.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-180-3\C-180-3_2026-02-19T00-18-12.660835+00-00\dim_scenario.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-180-3\C-180-3_2026-02-19T00-18-12.660835+00-00\fact_downtime_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-180-3\C-180-3_2026-02-19T00-18-12.660835+00-00\fact_production_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-180-3\C-180-3_2026-02-19T00-18-12.660835+00-00\fact_quality_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-180-3\C-180-3_2026-02-19T00-18-12.660835+00-00\fact_work_order.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-180-3\C-180-3_2026-02-19T00-18-12.660835+00-00\manifest.json" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800-180\C-1800-180_2026-02-19T00-21-24.130137+00-00\dim_machine.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800-180\C-1800-180_2026-02-19T00-21-24.130137+00-00\dim_process.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800-180\C-1800-180_2026-02-19T00-21-24.130137+00-00\dim_process_route.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800-180\C-1800-180_2026-02-19T00-21-24.130137+00-00\dim_product.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800-180\C-1800-180_2026-02-19T00-21-24.130137+00-00\dim_scenario.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800-180\C-1800-180_2026-02-19T00-21-24.130137+00-00\fact_downtime_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800-180\C-1800-180_2026-02-19T00-21-24.130137+00-00\fact_production_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800-180\C-1800-180_2026-02-19T00-21-24.130137+00-00\fact_quality_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800-180\C-1800-180_2026-02-19T00-21-24.130137+00-00\fact_work_order.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800-180\C-1800-180_2026-02-19T00-21-24.130137+00-00\manifest.json" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800-2\C-1800-2_2026-02-18T23-15-03.690558+00-00\dim_machine.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800-2\C-1800-2_2026-02-18T23-15-03.690558+00-00\dim_process.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800-2\C-1800-2_2026-02-18T23-15-03.690558+00-00\dim_process_route.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800-2\C-1800-2_2026-02-18T23-15-03.690558+00-00\dim_product.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800-2\C-1800-2_2026-02-18T23-15-03.690558+00-00\dim_scenario.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800-2\C-1800-2_2026-02-18T23-15-03.690558+00-00\fact_downtime_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800-2\C-1800-2_2026-02-18T23-15-03.690558+00-00\fact_production_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800-2\C-1800-2_2026-02-18T23-15-03.690558+00-00\fact_quality_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800-2\C-1800-2_2026-02-18T23-15-03.690558+00-00\fact_work_order.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800-2\C-1800-2_2026-02-18T23-15-03.690558+00-00\manifest.json" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800\C-1800_2026-02-18T23-03-54.222269+00-00\dim_machine.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800\C-1800_2026-02-18T23-03-54.222269+00-00\dim_process.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800\C-1800_2026-02-18T23-03-54.222269+00-00\dim_process_route.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800\C-1800_2026-02-18T23-03-54.222269+00-00\dim_product.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800\C-1800_2026-02-18T23-03-54.222269+00-00\dim_scenario.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800\C-1800_2026-02-18T23-03-54.222269+00-00\fact_downtime_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800\C-1800_2026-02-18T23-03-54.222269+00-00\fact_production_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800\C-1800_2026-02-18T23-03-54.222269+00-00\fact_quality_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800\C-1800_2026-02-18T23-03-54.222269+00-00\fact_work_order.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-1800\C-1800_2026-02-18T23-03-54.222269+00-00\manifest.json" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-2400\C-2400_2026-02-18T22-58-00.652307+00-00\dim_machine.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-2400\C-2400_2026-02-18T22-58-00.652307+00-00\dim_process.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-2400\C-2400_2026-02-18T22-58-00.652307+00-00\dim_process_route.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-2400\C-2400_2026-02-18T22-58-00.652307+00-00\dim_product.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-2400\C-2400_2026-02-18T22-58-00.652307+00-00\dim_scenario.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-2400\C-2400_2026-02-18T22-58-00.652307+00-00\fact_downtime_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-2400\C-2400_2026-02-18T22-58-00.652307+00-00\fact_production_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-2400\C-2400_2026-02-18T22-58-00.652307+00-00\fact_quality_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-2400\C-2400_2026-02-18T22-58-00.652307+00-00\fact_work_order.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-2400\C-2400_2026-02-18T22-58-00.652307+00-00\manifest.json" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-300\C-300_2026-02-18T23-54-01.995732+00-00\dim_machine.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-300\C-300_2026-02-18T23-54-01.995732+00-00\dim_process.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-300\C-300_2026-02-18T23-54-01.995732+00-00\dim_process_route.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-300\C-300_2026-02-18T23-54-01.995732+00-00\dim_product.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-300\C-300_2026-02-18T23-54-01.995732+00-00\dim_scenario.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-300\C-300_2026-02-18T23-54-01.995732+00-00\fact_downtime_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-300\C-300_2026-02-18T23-54-01.995732+00-00\fact_production_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-300\C-300_2026-02-18T23-54-01.995732+00-00\fact_quality_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-300\C-300_2026-02-18T23-54-01.995732+00-00\fact_work_order.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-300\C-300_2026-02-18T23-54-01.995732+00-00\manifest.json" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-38\C-38_2026-02-19T00-06-08.403783+00-00\dim_machine.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-38\C-38_2026-02-19T00-06-08.403783+00-00\dim_process.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-38\C-38_2026-02-19T00-06-08.403783+00-00\dim_process_route.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-38\C-38_2026-02-19T00-06-08.403783+00-00\dim_product.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-38\C-38_2026-02-19T00-06-08.403783+00-00\dim_scenario.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-38\C-38_2026-02-19T00-06-08.403783+00-00\fact_downtime_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-38\C-38_2026-02-19T00-06-08.403783+00-00\fact_production_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-38\C-38_2026-02-19T00-06-08.403783+00-00\fact_quality_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-38\C-38_2026-02-19T00-06-08.403783+00-00\fact_work_order.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-38\C-38_2026-02-19T00-06-08.403783+00-00\manifest.json" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-75\C-75_2026-02-19T00-00-12.254904+00-00\dim_machine.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-75\C-75_2026-02-19T00-00-12.254904+00-00\dim_process.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-75\C-75_2026-02-19T00-00-12.254904+00-00\dim_process_route.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-75\C-75_2026-02-19T00-00-12.254904+00-00\dim_product.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-75\C-75_2026-02-19T00-00-12.254904+00-00\dim_scenario.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-75\C-75_2026-02-19T00-00-12.254904+00-00\fact_downtime_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-75\C-75_2026-02-19T00-00-12.254904+00-00\fact_production_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-75\C-75_2026-02-19T00-00-12.254904+00-00\fact_quality_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-75\C-75_2026-02-19T00-00-12.254904+00-00\fact_work_order.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-75\C-75_2026-02-19T00-00-12.254904+00-00\manifest.json" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-900\C-900_2026-02-18T23-32-20.287051+00-00\dim_machine.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-900\C-900_2026-02-18T23-32-20.287051+00-00\dim_process.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-900\C-900_2026-02-18T23-32-20.287051+00-00\dim_process_route.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-900\C-900_2026-02-18T23-32-20.287051+00-00\dim_product.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-900\C-900_2026-02-18T23-32-20.287051+00-00\dim_scenario.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-900\C-900_2026-02-18T23-32-20.287051+00-00\fact_downtime_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-900\C-900_2026-02-18T23-32-20.287051+00-00\fact_production_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-900\C-900_2026-02-18T23-32-20.287051+00-00\fact_quality_event.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-900\C-900_2026-02-18T23-32-20.287051+00-00\fact_work_order.csv" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Calibration_Runs\C-900\C-900_2026-02-18T23-32-20.287051+00-00\manifest.json" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data_generators.py" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\export_to_folder.py" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\helper_functions.py" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\load_to_postgres.py" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\Machine.py" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\MachineType.py" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\Plant.py" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\Project-A-Production-Line-KPI-Analysis-Using-SQL.pyproj" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\Project_A_Production_Line_KPI_Analysis_Using_SQL.py" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\run_simulation.py" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\__pycache__\data_generators.cpython-314.pyc" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\__pycache__\data_generators.cpython-39.pyc" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\__pycache__\export_to_archive.cpython-314.pyc" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\__pycache__\export_to_folder.cpython-314.pyc" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\__pycache__\helper_functions.cpython-314.pyc" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\__pycache__\helper_functions.cpython-39.pyc" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\__pycache__\load_to_postgres.cpython-314.pyc" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\__pycache__\Machine.cpython-314.pyc" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\__pycache__\Machine.cpython-39.pyc" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\__pycache__\MachineType.cpython-314.pyc" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\__pycache__\MachineType.cpython-39.pyc" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\__pycache__\Plant.cpython-314.pyc" />
+    <None Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\__pycache__\Plant.cpython-39.pyc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\Data_Analyst_Portfolio.slnx\copilot-chat\71e37b6f\sessions\" />
+    <Folder Include="My Project\" />
+    <Folder Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\.vs\Project-A-Production-Line-KPI-Analysis-Using-SQL.slnx\FileContentIndex\merges\" />
+    <Folder Include="Project-A-Production-Line-KPI-Analysis-Using-SQL\data\Portfolio_Runs\SA-MP1005T365IA1800WP12560SE42R1\SA-MP1005T365IA1800WP12560SE42R1_2026-02-19T00-51-20.762527+00-00\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
