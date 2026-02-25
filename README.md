@@ -8,7 +8,9 @@
 > A discrete-event simulation engine generates high-volume synthetic operational data, which is stored in a structured relational warehouse and transformed into analytical views for KPI reporting and scenario comparison.
 >
 > The focus of this project is data modeling, analytics engineering, performance measurement, and structured experimentation.
+>
 >---
+>
 > ### Project Purpose
 > 
 > This project demonstrates the ability to:
@@ -20,7 +22,9 @@
 >  - Translate raw event data into decision-ready KPIs
 >
 > The simulated production system serves as a realistic data source for advanced analytics.
+>
 >---
+>
 > ### Architecture
 >
 > Simulation Engine (Python) 
@@ -29,7 +33,9 @@
 > -> Scenario Comparison & KPI Layer
 >
 > The emphasis is on transforming granular event-level data into structured, query-efficient analytics.
+>
 >---
+>
 > ### Data Model
 >
 > #### Fact Tables
@@ -52,7 +58,9 @@
 > - scenario_name
 >
 > This enables controlled scenario comparison within the same warehouse.
+>
 >---
+>
 > ### Scenarios Analyzed (365-Day Horizon)
 >
 > Three structured scenarios were executed:
@@ -77,6 +85,7 @@
 > - Improved flow efficiency
 >
 >---
+>
 > ### Key Analytical Findings
 > 
 > - The system exhibits a structural throughput ceiling (~210 work orders/day).
@@ -85,7 +94,9 @@
 > - WIP control improves flow efficiency without increasing throughput.
 > 
 > This project demonstrates constraint-driven system behavior using empirical data analysis.
+>
 >---
+>
 > ### Example KPIs Computed
 > - Average utilization %
 > - Machine-level bottleneck ranking
@@ -94,7 +105,9 @@
 > - On-Time delivery rate
 > - Failure frequency and downtime impact
 > - Daily throughput
+>
 >---
+>
 > ### Technical Skills Demonstrated
 >
 > #### Data Engineering
@@ -118,13 +131,17 @@
 > - Python simulation modeling
 > - Stochastic modeling
 > - Data generation pipelines
+>
 >---
+>
 > ### Technologies Used
 >
 > - Python (simpy, numpy, pandas)
 > - PostgreSQL
 > - SQL (CTEs, window functions, indexing)
-
+>
+>---
+>
 > ### Repository Structure
 >
 >     simulation/	→ Simulation engine
@@ -132,21 +149,36 @@
 >     analysis/	→ KPI & scenario queries
 >     results/	→ Scenario summary outputs
 >     images/		→ Architecture & visualization assets
+>
 >---
+>
 > ### How to Run
 > 
 > 1. Install dependencies:
 >
 >        pip install - r requirements.txt
 > 
-> 2. Configure database connection
+> 2. Configure database connection.
+>	1. Set up PostgreSQL instance and create database.
+>
+>          psql -U your_username -f database/00_db_setup.sql
+>          psql -U your_username -d your_database -f database/00_schema_setup.sql
+>
+>	2. Update connection parameters by creating a .env file with the following variables defined:
+>
+>     	    PG_HOST=your_host>	        PG_PORT=your_port
+>			PG_DATABASE=your_database
+>			PG_USER=your_username
+>			PG_PASSWORD=your_password
 >
 > 3. Run simulation:
 >
 > 	     python simulation/run_simulation.py
 >
 > 4. Execute SQL scripts in /database to create schema and analytical views.
+>
 >---
+>
 > ### Portfolio Context
 >
 > This project is part of a broader data analytics portfolio focused on:
@@ -157,7 +189,10 @@
 > - Performance modeling
 >
 > It demonstrates the ability to convert complex event data into structured analytical insight.
+>
 >---
+>
 > Patrick Ortiz<br>
 > Data Analytics Portfolio
+>
 >---
