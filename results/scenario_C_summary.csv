@@ -1,0 +1,2 @@
+"scenario_id","scenario_name","avg_utilization_pct","avg_daily_throughput","on_time_delivery_rate","median_lead_time_days","p90_lead_time_days","avg_flow_efficiency","total_failures","avg_plant_yield"
+"SC-MP1005T365IA1200WP8060SE42R1","Lean_Optimized_365_1200","0.50931885621035395638","215.1448087431693989","0.49045629452776754759","0.364193690224028","0.448604657161326","0.54555041337148335787",8743,"0.94289903678402849478"

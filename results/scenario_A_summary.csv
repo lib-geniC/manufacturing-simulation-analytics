@@ -1,0 +1,2 @@
+"scenario_id","scenario_name","avg_utilization_pct","avg_daily_throughput","on_time_delivery_rate","median_lead_time_days","p90_lead_time_days","avg_flow_efficiency","total_failures","avg_plant_yield"
+"SA-MP1005T365IA1800WP12560SE42R1","Stable_Baseline_365_1800","0.465126360484251472120939","215.1857923497267760","0.48982960461159501257","0.522791295933183","0.683298943188175","0.39065966159221701147",8776,"0.94946278770170857612"

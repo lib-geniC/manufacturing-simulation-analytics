@@ -1,0 +1,2 @@
+"scenario_id","scenario_name","avg_utilization_pct","avg_daily_throughput","on_time_delivery_rate","median_lead_time_days","p90_lead_time_days","avg_flow_efficiency","total_failures","avg_plant_yield"
+"SB-MP1005T365IA1200WP00SE42R1","Uncontrolled_Growth_365_1200","0.438491730974868935534612","215.2703583061889251","0.23204666505265706331","190.173095637353","285.621920978874","0.00380155329557475414",14781,"0.92652701293173683026"

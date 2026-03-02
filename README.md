@@ -9,7 +9,7 @@
 >
 > The focus of this project is data modeling, analytics engineering, performance measurement, and structured experimentation.
 >
->---
+---
 >
 > ### Project Purpose
 > 
@@ -23,7 +23,7 @@
 >
 > The simulated production system serves as a realistic data source for advanced analytics.
 >
->---
+---
 >
 > ### Architecture
 >
@@ -34,7 +34,9 @@
 >
 > The emphasis is on transforming granular event-level data into structured, query-efficient analytics.
 >
->---
+> #### Data Platform Diagram
+> ![Architecture Diagram](images/architecture_diagram.png)
+---
 >
 > ### Data Model
 >
@@ -59,7 +61,9 @@
 >
 > This enables controlled scenario comparison within the same warehouse.
 >
->---
+> #### Data Schema Diagram
+> ![Data Schema Diagram](images/data_schema_overview.png)
+---
 >
 > ### Scenarios Analyzed (365-Day Horizon)
 >
@@ -84,7 +88,7 @@
 > - WIP cap enabled
 > - Improved flow efficiency
 >
->---
+---
 >
 > ### Key Analytical Findings
 > 
@@ -95,7 +99,25 @@
 > 
 > This project demonstrates constraint-driven system behavior using empirical data analysis.
 >
->---
+> #### Flow Efficiency Comparison
+> ![Flow Efficiency Comparison](images/flow_efficiency_comparison_chart.png)
+>
+> #### Throughput Comparison
+> ![Throughput Comparison](images/throughput_vs_arrival_rate_chart.png)	
+>
+> #### Lead Time Comparison
+> ![Lead Time Comparison](images/lead_time_comparison_across_scenarios_chart.png)
+>
+> #### Utilization Distribution
+> ![Utilization Distribution](images/utilization_distribution_by_machine_type_chart.png)
+>
+> #### Results Summary
+> - Flow efficiency drops below 40% under congestion
+> - Throughput plateaus at ~210 work orders/day
+> - Removing WIP control increases lead time 3-4x
+> - Bottleneck machine groups consistently exceed 80% utilization
+>
+---
 >
 > ### Example KPIs Computed
 > - Average utilization %
@@ -106,7 +128,7 @@
 > - Failure frequency and downtime impact
 > - Daily throughput
 >
->---
+---
 >
 > ### Technical Skills Demonstrated
 >
@@ -132,7 +154,7 @@
 > - Stochastic modeling
 > - Data generation pipelines
 >
->---
+---
 >
 > ### Technologies Used
 >
@@ -140,7 +162,7 @@
 > - PostgreSQL
 > - SQL (CTEs, window functions, indexing)
 >
->---
+---
 >
 > ### Repository Structure
 >
@@ -150,7 +172,7 @@
 >     results/	→ Scenario summary outputs
 >     images/		→ Architecture & visualization assets
 >
->---
+---
 >
 > ### How to Run
 > 
@@ -166,7 +188,8 @@
 >
 >	2. Update connection parameters by creating a .env file with the following variables defined:
 >
->     	    PG_HOST=your_host>	        PG_PORT=your_port
+>     	    PG_HOST=your_host
+>	        PG_PORT=your_port
 >			PG_DATABASE=your_database
 >			PG_USER=your_username
 >			PG_PASSWORD=your_password
@@ -177,7 +200,7 @@
 >
 > 4. Execute SQL scripts in /database to create schema and analytical views.
 >
->---
+---
 >
 > ### Portfolio Context
 >
@@ -190,9 +213,9 @@
 >
 > It demonstrates the ability to convert complex event data into structured analytical insight.
 >
->---
+---
 >
 > Patrick Ortiz<br>
 > Data Analytics Portfolio
 >
->---
+---
