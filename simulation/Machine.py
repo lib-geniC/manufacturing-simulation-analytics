@@ -158,36 +158,6 @@ class Machine(object):
         int
             The generated `batch_id` for this production event.
         """
-        
-        # # Build sets of existing IDs to avoid collisions
-        # if not self.production_log:
-        #     curr_event_ids = [1.1]
-        #     curr_batch_ids = [1.1]
-        # else:
-        #     curr_event_ids = []
-        #     curr_batch_ids = []
-        #     temp_prod_log = self.production_log
-        #     for item in temp_prod_log:
-        #         event_id_temp = item['event_id']
-        #         batch_id_temp = item['batch_id']
-        #         curr_event_ids.append(event_id_temp)
-        #         curr_batch_ids.append(batch_id_temp)
-        
-        # # Generate unique event_id
-        # while True:
-        #     event_id = self.processing_rng.integers(1e9)
-        #     if event_id in curr_event_ids:
-        #         continue
-        #     else:
-        #         break
-        # # Generate unique batch_id    
-        # while True:
-        #     batch_id = self.processing_rng.integers(1e9)
-        #     if batch_id in curr_batch_ids:
-        #         continue
-        #     else:
-        #         break
-
         # Generate globally unique IDs using module-level counters (fast, deterministic)
         event_id = next(_event_id_counter)
         batch_id = next(_batch_id_counter)
@@ -235,23 +205,7 @@ class Machine(object):
         failure_end : numeric
             env.now timestamp when failure ended.
         """
-        # # Collect existing downtime ids to avoid collisions
-        # if not self.downtime_log:
-        #     curr_downtime_ids = [1.1]
-        # else:
-        #     curr_downtime_ids = []
-        #     for item in self.downtime_log:
-        #         downtime_id_temp = item['downtime_id']
-        #         curr_downtime_ids.append(downtime_id_temp)
-
-        # # Generate unique downtime_id
-        # while True:
-        #     downtime_id = self.processing_rng.integers(1e9)
-        #     if downtime_id in curr_downtime_ids:
-        #         continue
-        #     else:
-        #         break
-
+       # Collect existing downtime ids to avoid collisions
         downtime_id = next(_downtime_id_counter)
 
         # Append downtime record
@@ -292,23 +246,7 @@ class Machine(object):
         scrap_units : int
             Units that failed inspection.
         """
-        # # Collect existing quality ids to avoid collisions
-        # if not self.quality_log:
-        #     curr_quality_ids = [1.1]
-        # else:
-        #     curr_quality_ids = []
-        #     for item in self.quality_log:
-        #         quality_id_temp = item['quality_id']
-        #         curr_quality_ids.append(quality_id_temp)
-
-        # # Generate unique quality_id
-        # while True:
-        #     quality_id = self.processing_rng.integers(1e9)
-        #     if quality_id in curr_quality_ids:
-        #         continue
-        #     else:
-        #         break
-
+        # Collect existing quality ids to avoid collisions
         quality_id = next(_quality_id_counter)
 
         # Append quality event record
