@@ -198,7 +198,7 @@
 >
 > 	     python simulation/run_simulation.py
 >
-> 4. Execute SQL scripts in /database to create schema and analytical views.
+> 4. Execute SQL scripts in /analysis to create analytical views and compute KPI data queries.
 >
 ---
 >

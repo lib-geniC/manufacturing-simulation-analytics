@@ -15,18 +15,11 @@
 */
 
 -- Set the intended Scenario ID for queries:
-"SA-MP1005T365IA1800WP12560SE42R1"
-"SB-MP1005T365IA1200WP00SE42R1"
-"SC-MP1005T365IA1200WP8060SE42R1"
-"VSA-MP1005T365IA1800WP12560SE101R1"
-"VSB-MP1005T365IA1200WP00SE101R1"
-"VSC-MP1005T365IA1200WP8060SE101R1"
-"VSA-MP1005T365IA1800WP12560SE2024R1"
-"VSA-MP1005T365IA1800WP12560SE777R1"
-SET SESSION vars.scenario_id = 'VSA-MP1005T365IA1800WP12560SE777R1';
+SET SESSION vars.scenario_id = 'your_scenario_id';
 ---------------------------------------------------------------------------------------------------------------
 ---- Scenario Summary Reports:
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+-- Function for pulling all core KPIs for a given scenario in a single query:
 CREATE OR REPLACE FUNCTION analytics.get_scenario_kpis(p_scenario_id TEXT)
 RETURNS TABLE (
     scenario_id TEXT,
@@ -130,6 +123,7 @@ SELECT k.*
 FROM staging.dim_scenario s
 CROSS JOIN LATERAL analytics.get_scenario_kpis(s.scenario_id) k;
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+-- Query to pull all core KPIs for the current scenario:
 SELECT *
 FROM analytics.mv_scenario_kpi_summary
 WHERE scenario_id = current_setting('vars.scenario_id')::TEXT;
